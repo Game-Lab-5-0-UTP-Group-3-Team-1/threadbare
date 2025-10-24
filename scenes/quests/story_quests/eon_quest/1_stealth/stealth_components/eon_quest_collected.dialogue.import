@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://7xi1c2vkq8vi"
+path="res://.godot/imported/eon_quest_collected.dialogue-36650cdbb7e82a35628c131c7083357f.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/eon_quest/1_stealth/stealth_components/eon_quest_collected.dialogue"
+dest_files=["res://.godot/imported/eon_quest_collected.dialogue-36650cdbb7e82a35628c131c7083357f.tres"]
+
+[params]
+
+defaults=true

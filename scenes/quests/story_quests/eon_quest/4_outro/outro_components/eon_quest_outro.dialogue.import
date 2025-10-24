@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ph6sa533aty1"
+path="res://.godot/imported/eon_quest_outro.dialogue-b6e2fb796a343063e77cde4b4c85ca85.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/eon_quest/4_outro/outro_components/eon_quest_outro.dialogue"
+dest_files=["res://.godot/imported/eon_quest_outro.dialogue-b6e2fb796a343063e77cde4b4c85ca85.tres"]
+
+[params]
+
+defaults=true
