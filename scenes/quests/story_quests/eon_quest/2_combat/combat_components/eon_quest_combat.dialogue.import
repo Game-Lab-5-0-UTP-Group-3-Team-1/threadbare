@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://i3858r78f6mv"
+path="res://.godot/imported/eon_quest_combat.dialogue-57601a0770258e6d706d3e3c4171918a.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/eon_quest/2_combat/combat_components/eon_quest_combat.dialogue"
+dest_files=["res://.godot/imported/eon_quest_combat.dialogue-57601a0770258e6d706d3e3c4171918a.tres"]
+
+[params]
+
+defaults=true

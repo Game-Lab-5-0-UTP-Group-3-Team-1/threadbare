@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ovr3wx54yr1h"
+path="res://.godot/imported/eon_quest_intro.dialogue-f2fa637da93580f4d82b5775484c4f2f.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/eon_quest/0_intro/intro_components/eon_quest_intro.dialogue"
+dest_files=["res://.godot/imported/eon_quest_intro.dialogue-f2fa637da93580f4d82b5775484c4f2f.tres"]
+
+[params]
+
+defaults=true
