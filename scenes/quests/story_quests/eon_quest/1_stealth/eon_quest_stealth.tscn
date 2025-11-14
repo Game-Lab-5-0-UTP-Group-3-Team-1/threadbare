@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://ccf568k0jawi5"]
+[gd_scene load_steps=27 format=4 uid="uid://ccf568k0jawi5"]
 
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_tamtk"]
 [ext_resource type="TileSet" uid="uid://y8yint0q52vq" path="res://scenes/quests/story_quests/eon_quest/tileset_eon.tres" id="2_863ge"]
@@ -12,7 +12,6 @@
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="9_vgvb4"]
 [ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="10_76383"]
 [ext_resource type="Resource" uid="uid://7xi1c2vkq8vi" path="res://scenes/quests/story_quests/eon_quest/1_stealth/stealth_components/eon_quest_collected.dialogue" id="12_80gpb"]
-[ext_resource type="Resource" uid="uid://bkd3siqmnisbt" path="res://scenes/quests/story_quests/eon_quest/1_stealth/stealth_components/inventory.tres" id="12_863ge"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="13_cnj6x"]
 [ext_resource type="Resource" uid="uid://xkn756m1mivo" path="res://scenes/quests/story_quests/eon_quest/1_stealth/stealth_components/eon_quest_stealth.dialogue" id="14_j0pij"]
 
@@ -318,7 +317,6 @@ debug_color = Color(0, 0, 0, 0.42)
 [node name="CollectibleItem" parent="." instance=ExtResource("10_76383")]
 position = Vector2(116, 2280)
 next_scene = "uid://qqd046robr4u"
-item = ExtResource("12_863ge")
 collected_dialogue = ExtResource("12_80gpb")
 
 [node name="Cinematic" type="Node2D" parent="."]
