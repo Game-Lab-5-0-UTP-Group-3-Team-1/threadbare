@@ -108,7 +108,7 @@ tile_map_data = PackedByteArray("AAAjAAgAGAABAAkAAAAjAAcAGAABAAEAAAAAAAUAGAAJAAk
 tile_set = ExtResource("2_863ge")
 
 [node name="Player" parent="." instance=ExtResource("3_et5b3")]
-position = Vector2(165, 476)
+position = Vector2(288, 2306)
 scale = Vector2(1.5, 1.5)
 sprite_frames = ExtResource("4_qjy2e")
 
@@ -306,6 +306,28 @@ sprite_frames = ExtResource("8_863ge")
 dialogue = ExtResource("8_a7s15")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint3"]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_xl8y6")
+debug_color = Color(0, 0, 0, 0.42)
+
+[node name="Checkpoint4" parent="Checkpoints" instance=ExtResource("7_1h4gw")]
+position = Vector2(334, 1583.0001)
+scale = Vector2(1.5, 1.5)
+sprite_frames = ExtResource("8_863ge")
+dialogue = ExtResource("8_a7s15")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint4"]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_xl8y6")
+debug_color = Color(0, 0, 0, 0.42)
+
+[node name="Checkpoint5" parent="Checkpoints" instance=ExtResource("7_1h4gw")]
+position = Vector2(910, 2248)
+scale = Vector2(1.5, 1.5)
+sprite_frames = ExtResource("8_863ge")
+dialogue = ExtResource("8_a7s15")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoints/Checkpoint5"]
 position = Vector2(0, -2)
 shape = SubResource("RectangleShape2D_xl8y6")
 debug_color = Color(0, 0, 0, 0.42)
