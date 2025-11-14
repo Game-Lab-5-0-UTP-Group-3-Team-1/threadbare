@@ -23,3 +23,5 @@ __MACOSX
 *.tmp
 
 *~
+
+*.import

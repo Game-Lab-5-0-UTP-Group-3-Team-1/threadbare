@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=2 format=3 uid="uid://bkd3siqmnisbt"]
+
+[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="1_ugm6e"]
+
+[resource]
+script = ExtResource("1_ugm6e")
+metadata/_custom_type_script = "uid://bgmwplmj3bfls"
