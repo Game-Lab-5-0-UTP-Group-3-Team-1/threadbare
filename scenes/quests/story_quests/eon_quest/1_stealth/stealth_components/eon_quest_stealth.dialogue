@@ -1,6 +1,11 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-Kael needs to find to some equipment to deal with NEUX AI. Let's find some.
-Avoid the guards and find the way out.
+
+DR-0: Kael, escucha. Necesitamos conseguir equipo para enfrentarnos a los restos de NEUX AI.
+DR-0: Y rápido… los guardias ya están patrullando esta zona.
+Protagonista: ¿Alguna idea de por dónde empezar?
+DR-0: Sí. Sigue mis indicaciones. Evita el contacto y busca una salida, Lira te ayudara. El equipo debe estar cerca.
+Narrador: Mantente en las sombras, avanza sin ser visto… el mínimo ruido podría alertarlos.
+
 => END

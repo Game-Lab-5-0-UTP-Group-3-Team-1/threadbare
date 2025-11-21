@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
-~ start
-LIRA: Bien Kael sigue moviendote.
-=> END
+extends Node2D
+
+func _ready():
+	$AnimatedSprite2D.play("idle")

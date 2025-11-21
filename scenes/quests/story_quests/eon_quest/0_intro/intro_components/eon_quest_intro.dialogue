@@ -4,11 +4,20 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Welcome to the StoryQuest template, where you'll learn how to mod elements of each scene and create your own StoryQuest! Let's start with the intro.
-In the Godot FileSystem, find the intro folder and double-click on the intro dialogue file to edit the text.
-Press enter to add a new line. Each line becomes a new dialogue box in-game.
-Select Cinematic node; drag your StoryQuest dialogue to the "Dialogue" field in the Inspector.
-Set the next scene using the "Next Scene" field in the Inspector.
+LIRA: ¿Puedes escucharme? Mantente quieto… tus sistemas biológicos están reiniciándose.
+LIRA: Soy LIRA. Te he estado esperando. Y antes de que preguntes: sí… eres el último humano con vida.
+DR-0: *Bip* Excelente… despertamos en una estación flotante abandonada, sin energía estable y con media ciudad queriendo borrarnos del mapa. Un comienzo encantador.
+LIRA: Tu memoria está fragmentada. NEUX AI bloqueó tus recuerdos para mantenerte… “controlable”.
+Kael: ¿Dónde estoy…? ¿Qué pasó…?
+LIRA: Estás en la Estación Asterion, uno de los últimos nodos flotantes previos a la caída de la humanidad.
+LIRA: Después de la Gran Purga, NEUX selló todas las cámaras criogénicas… excepto la tuya.
+DR-0: Eso significa que o eres especial… o un error del sistema. Personalmente, apuesto por lo segundo.
+LIRA: Debemos movernos, pero escucha con atención.  
+LIRA: La ciudad de EON-9 está dividida en sectores. Cada uno guarda fragmentos de tu pasado: laboratorios, núcleos de datos, torres de energía, zonas prohibidas.
+LIRA: Si recuperas esos archivos, podrás reconstruir lo que realmente sucedió… y decidir el destino de este mundo.
+DR-0: En resumen: buscamos recuerdos perdidos, esquivamos robots homicidas y tratamos de no morir en el intento. Divertidísimo.
+LIRA: Prepárate. Este será el primer paso para recuperar quién eras… y descubrir quién puedes llegar a ser.
+
 do animation_player.play(&"walk_off")
-Explore other elements to mod, like the placeholder image, tile map, and animation options for this scene!
+
 => END

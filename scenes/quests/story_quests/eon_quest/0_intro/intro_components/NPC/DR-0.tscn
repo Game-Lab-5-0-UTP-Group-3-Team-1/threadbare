@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=3 uid="uid://qwnq7hr2ng0"]
+
+[ext_resource type="Script" uid="uid://dbyuhvthm6kso" path="res://scenes/quests/story_quests/eon_quest/0_intro/intro_components/NPC/dr_0.gd" id="1_8e5q1"]
+[ext_resource type="Texture2D" uid="uid://b6n6pl1ebe3yb" path="res://scenes/quests/story_quests/eon_quest/player_components/Anim_Robot_Jump1_v1.1_spritesheet.png" id="1_hs1pg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8e5q1"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qvopg"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ptgg4"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ow7df"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grera"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77c45"]
+atlas = ExtResource("1_hs1pg")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vtdnv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8e5q1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qvopg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ptgg4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ow7df")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grera")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77c45")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="DR-0" type="Node2D"]
+script = ExtResource("1_8e5q1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vtdnv")
+animation = &"idle"
