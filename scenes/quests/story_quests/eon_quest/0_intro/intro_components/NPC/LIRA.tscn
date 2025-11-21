@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://3jvo0haejd6a"]
+
+[ext_resource type="Script" uid="uid://be61ebokl27c6" path="res://scenes/quests/story_quests/eon_quest/0_intro/intro_components/NPC/lira.gd" id="1_kpfsb"]
+[ext_resource type="SpriteFrames" uid="uid://ixmg4rnak286" path="res://scenes/quests/story_quests/eon_quest/player_components/LIRA.tres" id="2_1ni6k"]
+
+[node name="Lira" type="Node2D"]
+script = ExtResource("1_kpfsb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_1ni6k")
+animation = &"idle"
