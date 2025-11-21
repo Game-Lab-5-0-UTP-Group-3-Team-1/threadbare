@@ -2,10 +2,14 @@
 # SPDX-License-Identifier: MPL-2.0
 
 ~ start
-Something in this scene will throw projectiles at you. The goal is to redirect them toward the targets.
-Explore the Scene Tree to add, change, or remove elements.
+NEUX AI: Intruso biológico detectado. Iniciando protocolo de eliminación total.
+LIRA: Kael, ¡cuidado! NEUX va a lanzar pulsos de energía directamente hacia ti.
+DR-0: Y no son de adorno. Si no los desvías, terminarás como una tostada cósmica.
+LIRA: Concéntrate. Redirige los proyectiles hacia los núcleos expuestos. Es la única forma de romper sus defensas.
+DR-0: Tú ocupa los disparos, yo monitoreo sus patrones. Y por favor… ¡no te quedes quieto!
 => END
 
 ~ well_done
-You can add text here after the player takes the collectible. Be creative with this one!
+DR-0: ¡Eso! Justo en el núcleo. Si sigues así, NEUX va a necesitar una actualización… póstuma.
+LIRA: ¡Mantén el ritmo! Sus sistemas están cayendo, pero aún puede contraatacar.
 => END
